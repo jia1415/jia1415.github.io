@@ -1,0 +1,148 @@
+/* 
+css stylesheet for the coursework page
+*/
+
+#coursework {
+    padding: 3em 0 0em 0;
+    background: #f3f3f3;
+    background-color: #d5d5d5;
+    
+    /* background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+    background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+    background: linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=1 ); */
+}
+
+    #coursework .grayhead {
+        padding: 1em 0 1em 0;
+        background: #d5d5d5;
+        text-align: center;
+    }
+
+    #coursework .lighthead {
+        padding: 1em 0 1em 0;
+        background: #e0e0e0;
+        text-align: center;
+    }
+
+    #coursework .graybody {
+        background: #d5d5d5;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-flex-direction: row;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        padding-right: 3em;
+        padding-left: 3em;
+        padding-bottom: 1em;
+        padding-top: 3em;
+    }
+
+        #coursework .graybody article {
+            width: 50%;
+        }
+
+            #coursework .graybody article:first-child {
+                padding-right: 2em;
+                padding-left: 4em;
+            }
+
+            #coursework .graybody article:last-child {
+                padding-right: 4em;
+                padding-left: 2em;
+            }
+
+    #coursework .lightbody {
+        background: #e0e0e0;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-flex-direction: row;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        padding-right: 3em;
+        padding-left: 3em;
+        padding-bottom: 1em;
+        padding-top: 3em;
+    }
+
+        #coursework .lightbody article {
+            width: 50%;
+        }
+
+            #coursework .lightbody article:first-child {
+                padding-right: 2em;
+                padding-left: 4em;
+            }
+
+            #coursework .lightbody article:last-child {
+                padding-right: 4em;
+                padding-left: 2em;
+            }
+
+    @media screen and (max-width: 980px) {
+
+        #coursework {
+            padding: 4em 0 2em 0;
+        }
+
+            #coursework .graybody {
+                -moz-flex-direction: column;
+                -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                flex-direction: column;
+            }
+
+                #coursework .graybody article {
+                    width: 100%;
+                }
+
+                    #coursework .graybody article:first-child {
+                        padding-right: 0;
+                        padding-bottom: 2em;
+                    }
+
+                    #coursework .graybody article:last-child {
+                        padding-left: 0;
+                        padding-top: 2em;
+                    }
+
+            #coursework .lightbody {
+                background: #e0e0e0;
+                -moz-flex-direction: column;
+                -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                flex-direction: column;
+            }
+
+                #coursework .lightbody article {
+                    width: 100%;
+                }
+
+                    #coursework .lightbody article:first-child {
+                        padding-right: 0;
+                        padding-bottom: 2em;
+                    }
+
+                    #coursework .lightbody article:last-child {
+                        padding-left: 0;
+                        padding-top: 2em;
+                    }
+    }
+
+    @media screen and (max-width: 736px) {
+
+        #coursework {
+            padding: 2em 0 0.1em 0;
+        }
+
+    }
+
+      

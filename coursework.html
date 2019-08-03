@@ -8,58 +8,51 @@
 -->
 <html>
 	<head>
-		<title>Extracurriculars</title>
+		<title>Coursework</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/coursework.css" />
 	</head>
 	<body>
 
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="index.html" class="logo">Home</a>
+					<a href="index.html" class="logo">Jiaheng Zhang</a>
 					<nav id="nav">
-						<a href="experience.html">Work Experience</a>
-						<a href="extracurriculars.html">Extracurriculars</a>
-						<a href="research.html">Research</a>
-						<a href="projects.html">Projects</a>
-						<a href="elements.html">Elements</a>
+						<a href="coursework.html">Coursework</a>
 					</nav>
 				</div>
 			</header>
 			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
 		<!-- Main -->
-			<section id="classes" >
-				<div class="head">
+			<section id="coursework" >
+				<div class="grayhead">
 					<header class="major special">
-						<h1>Coursework</h1>
+						<h1>Undergraduate Coursework</h1>
 					</header>
 				</div>
-				<div class="first">
+				<div class="graybody">
 					<article>
 						<div class="content">
-							<h3>Freshman Fall</h3>
-							<p> 6.00   - Introduction to Computer Science </br>
-								6.A48  - Physics of Energy </br>
-								7.012  - Introduction to Biology </br>
-								18.02  - Multivariable Calculus </br>
-								24.08  - Philosophical Issues in Brain Science </br>
+							<h3>Junior Fall</h3>
+							<p> 2.005  - Thermodynamics and Fluids </br>
+								6.008  - Introduction to Inference </br>
+								6.152  - Micro/Nano Processing Technology </br>
+								6.805  - Foundations of Information Policy </br>
+								24.120 - Moral Psychology </br>
 						</div>
 					</article>
 					<article class="alt">
 						<div class="content">
-							<h3>Freshman Spring</h3>
-							<p> 3.985  - Archaeological Science </br>
-								6.004  - Computation Structures </br>
-								6.08   - Embedded Systems </br>
-								8.022  - Physics Electricity and Magnetism </br>
-								18.03  - Differential Equations </br>
+							<h3>Junior Spring</h3>
+							<p> TBD!
 						</div>
 					</article>
 				</div>
-				<div class="second">
+				<div class="lightbody">
 					<article>
 						<div class="content">
 							<h3>Sophomore Fall</h3>
@@ -85,31 +78,105 @@
 						</div>
 					</article>
 				</div>
-				<div class="first">
+				<div class="graybody">
 					<article>
 						<div class="content">
-							<h3>Junior Fall</h3>
-							<p> 2.005  - Thermodynamics and Fluids </br>
-								6.008  - Introduction to Inference </br>
-								6.152  - Micro/Nano Processing Technology </br>
-								6.805  - Foundations of Information Policy </br>
-								24.120 - Moral Psychology </br>
+							<h3>Freshman Fall</h3>
+							<p> 6.00   - Introduction to Computer Science </br>
+								6.A48  - Physics of Energy </br>
+								7.012  - Introduction to Biology </br>
+								18.02  - Multivariable Calculus </br>
+								24.08  - Philosophical Issues in Brain Science </br>
 						</div>
 					</article>
 					<article class="alt">
 						<div class="content">
-							<h3>Junior Spring</h3>
-							<p> TBD!
+							<h3>Freshman Spring</h3>
+							<p> 3.985  - Archaeological Science </br>
+								6.004  - Computation Structures </br>
+								6.08   - Embedded Systems </br>
+								8.022  - Physics II: Electricity and Magnetism </br>
+								18.03  - Differential Equations </br>
 						</div>
 					</article>
 				</div>
-			</section>
+				<!-- <div class="grayhead">
+					<input onclick="change()" type="button" value="Show Class Summaries" id="myButton1"></input>
+				</div> -->
+				<div class="lighthead">
+					<header class="major special">
+							<h1></br>	High School Coursework</h1>
+						</header>
+				</div>
+				<div class="lightbody">
+					<article>
+						<div class="content">
+							<h3>Senior Year</h3>
+							<p> AP Calculus BC </br>
+								AP European History </br>
+								AP Physics C Mechanics </br>
+								AP Physics C Electricity and Magnetism </br>
+								English 12 </br>
+								Humanities </br>
+						</div>
+					</article>
+					<article class="alt">
+						<div class="content">
+							<h3>Junior Year</h3>
+							<p> AP United States History </br>
+								AP Chinese </br>
+								AP Biology </br>
+								Advanced Pre-Calculus </br>
+								English 11 </br>
+								Physics 1 </br>
+						</div>
+					</article>
+				</div>
+				<div class="graybody">
+						<article>
+							<div class="content">
+								<h3>Sophomore Year</h3>
+								<p> AP World History </br>
+									Advanced Geometry </br>
+									Chinese 3 </br>
+									Chemistry </br>
+									English 10 </br>
+									Latin 4 </br>
+							</div>
+						</article>
+						<article class="alt">
+							<div class="content">
+								<h3>Freshman Year</h3>
+								<p> Advanced Algebra 2 </br>
+									Biology </br>
+									Chinese 2 </br>
+									English 9 </br>
+									Latin 3 </br>
+									World History </br>
+							</div>
+						</article>
+					</div>
+			</section>				
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
+			<script src="assets/js/util.js"></script>	
 			<script src="assets/js/main.js"></script>
+			<script>
+				function change() {
+
+					var elem = document.getElementById("myButton1");
+					
+					if (elem.value=="Show Class Summaries"){
+						elem.value = "Hide Class Summaries";
+						$("p").slideDown();
+					}
+					else {elem.value = "Show Class Summaries";
+						$("p").slideUp();
+					}
+				}
+			</script>
 
 	</body>
 </html>
