@@ -46,13 +46,13 @@ edu is column based, work is row based
         }
 
             #edu .inner article:first-child {
-                padding-right: 4em;
-                padding-left: 1em;
+                padding-right: 2em;
+                padding-left: 2em;
             }
 
             #edu .inner article:last-child {
-                padding-right: 1em;
-                padding-left: 4em;
+                padding-right: 2em;
+                padding-left: 2em;
             }
 
     @media screen and (max-width: 800px) {
@@ -73,13 +73,13 @@ edu is column based, work is row based
                 }
 
                     #edu .inner article:first-child {
-                        padding-right: 0;
-                        padding-bottom: 2em;
+                        padding-right: 1em;
+                        padding-bottom: 1em;
                     }
 
                     #edu .inner article:last-child {
-                        padding-left: 0;
-                        padding-top: 2em;
+                        padding-left: 1em;
+                        padding-top: 1em;
                     }
 
     }
@@ -119,10 +119,7 @@ edu is column based, work is row based
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
         flex-direction: row;
-        padding-right: 2em;
-        padding-left: 2em;
-        padding-bottom: 1em;
-        padding-top: 3em;
+        padding: 3em 3em 1em 3em;
     }
 
         #work .first article {
@@ -135,7 +132,7 @@ edu is column based, work is row based
             }
 
             #work .first article:last-child {
-                padding-right: 4em;
+                padding-right: 2em;
                 padding-left: 2em;
             }
 
@@ -150,10 +147,7 @@ edu is column based, work is row based
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
         flex-direction: row;
-        padding-right: 2em;
-        padding-left: 2em;
-        padding-bottom: 1em;
-        padding-top: 3em;
+        padding: 3em 4em 1em 3em;
     }
 
         #work .second article {
@@ -162,7 +156,7 @@ edu is column based, work is row based
 
             #work .second article:first-child {
                 padding-right: 2em;
-                padding-left: 4em;
+                padding-left: 2em;
             }
 
             #work .second article:last-child {
@@ -173,7 +167,7 @@ edu is column based, work is row based
     @media screen and (max-width: 980px) {
 
         #work {
-            padding: 4em 0 2em 0;
+            padding: 4em 2em 2em 2em;
         }
 
             #work .first {

@@ -1,6 +1,6 @@
----
+<!-- ---
 permalink: /404.html
----
+--- -->
 
 <!DOCTYPE HTML>
 <!--
@@ -16,7 +16,8 @@ permalink: /404.html
 		<link rel="shortcut icon" type="image/png" href="pics/favicon.png"/>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/404.css" />
 	</head>
 	<body>
 
@@ -33,26 +34,14 @@ permalink: /404.html
 			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
 		<!-- Main -->
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>	
-			<script src="assets/js/main.js"></script>
-			<script>
-				function change() {
-
-					var elem = document.getElementById("myButton1");
-					
-					if (elem.value=="Show Class Summaries"){
-						elem.value = "Hide Class Summaries";
-						$("p").slideDown();
-					}
-					else {elem.value = "Show Class Summaries";
-						$("p").slideUp();
-					}
-				}
-			</script>
-
+            <section id="textbox">
+                <h1>
+                    Oops!<br/>
+                    <span>This is not a valid page.</span> <br/>
+                    <a href="index.html">Return Home?</a>
+                </h1>
+            </section>
+            
+            
 	</body>
 </html>

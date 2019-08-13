@@ -1,0 +1,57 @@
+html {
+    background: url("../../pics/curiosity.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    background-color: #c5c5c5;
+    background-blend-mode: multiply;
+}
+
+body { background: none; }
+
+    #textbox {
+        padding: 10em 4em 2em 8em;
+    }
+
+        #textbox input, #textbox select, #textbox textarea {
+            color: #ffffff;
+        }
+
+        #textbox a {
+            color: #ffffff;
+        }
+
+        #textbox strong, #textbox b {
+            color: #ffffff;
+        }
+
+        #textbox h1, #textbox h2, #textbox h3, #textbox h4, #textbox h5, #textbox h6 {
+            color: #fff;
+        }
+
+        #textbox blockquote {
+            border-left-color: #fff;
+        }
+
+        #textbox code {
+            background: none;
+            border-color: #fff;
+        }
+
+        #textbox hr {
+            border-bottom-color: #fff;
+        }
+
+        #textbox h1 {
+            font-size: 2em;
+            padding: 0;
+            letter-spacing: 3px;
+            font-weight: 700;
+        }
+    
+            #textbox h1 span {
+                font-weight: 400;
+            }
