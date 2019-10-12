@@ -47,13 +47,13 @@ css stylesheet for the coursework page
         }
 
             #coursework .graybody article:first-child {
-                padding-right: 2em;
-                padding-left: 4em;
+                padding-right: 3em;
+                padding-left: 3em;
             }
 
             #coursework .graybody article:last-child {
-                padding-right: 4em;
-                padding-left: 2em;
+                padding-right: 3em;
+                padding-left: 3em;
             }
 
     #coursework .lightbody {
@@ -78,13 +78,13 @@ css stylesheet for the coursework page
         }
 
             #coursework .lightbody article:first-child {
-                padding-right: 2em;
-                padding-left: 4em;
+                padding-right: 3em;
+                padding-left: 3em;
             }
 
             #coursework .lightbody article:last-child {
-                padding-right: 4em;
-                padding-left: 2em;
+                padding-right: 3em;
+                padding-left: 3em;
             }
 
     @media screen and (max-width: 980px) {
@@ -105,12 +105,12 @@ css stylesheet for the coursework page
                 }
 
                     #coursework .graybody article:first-child {
-                        padding-right: 0;
+                        /* padding-right: 0; */
                         padding-bottom: 2em;
                     }
 
                     #coursework .graybody article:last-child {
-                        padding-left: 0;
+                        /* padding-left: 0; */
                         padding-top: 2em;
                     }
 
@@ -127,12 +127,12 @@ css stylesheet for the coursework page
                 }
 
                     #coursework .lightbody article:first-child {
-                        padding-right: 0;
+                        /* padding-right: 0; */
                         padding-bottom: 2em;
                     }
 
                     #coursework .lightbody article:last-child {
-                        padding-left: 0;
+                        /* padding-left: 0; */
                         padding-top: 2em;
                     }
     }
