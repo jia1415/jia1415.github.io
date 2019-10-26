@@ -94,6 +94,7 @@ edu is column based, work is row based
 
 
 #work {
+    
     padding: 4em 0 2em 0;
     background: #f3f3f3;
     background-color: #d5d5d5;
@@ -119,7 +120,7 @@ edu is column based, work is row based
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
         flex-direction: row;
-        padding: 3em 3em 1em 3em;
+        padding: 3em 20em 1em 20em;
     }
 
         #work .first article {
@@ -147,27 +148,41 @@ edu is column based, work is row based
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
         flex-direction: row;
-        padding: 3em 4em 1em 3em;
+        padding: 3em 20em 1em 20em;
     }
 
         #work .second article {
-            width: 50%;
+            margin: auto;
+            width: 40%;
         }
 
             #work .second article:first-child {
-                padding-right: 2em;
-                padding-left: 2em;
+                padding: 0 0 0 0;
             }
 
             #work .second article:last-child {
-                padding-right: 2em;
-                padding-left: 2em;
+                padding: 0 0 0 0;
             }
+
+    @media screen and (max-width: 1800px) {
+
+        #work {
+            padding: 0 0 0 0;
+        }
+
+        #work .first {
+            padding: 3em 3em 1em 3em;
+        }
+
+        #work .second {
+            padding: 3em 3em 1em 3em;
+        }
+    }
 
     @media screen and (max-width: 980px) {
 
         #work {
-            padding: 4em 2em 2em 2em;
+            padding: 0 0 0 0;
         }
 
             #work .first {
@@ -175,6 +190,7 @@ edu is column based, work is row based
                 -webkit-flex-direction: column;
                 -ms-flex-direction: column;
                 flex-direction: column;
+                padding: 3em 3em 1em 3em;
             }
 
                 #work .first article {
@@ -182,12 +198,14 @@ edu is column based, work is row based
                 }
 
                     #work .first article:first-child {
-                        padding-right: 0;
+                        padding-left: 2em;
+                        padding-right: 2em;
                         padding-bottom: 2em;
                     }
 
                     #work .first article:last-child {
-                        padding-left: 0;
+                        padding-left: 2em;
+                        padding-right: 2em;
                         padding-top: 2em;
                     }
 
@@ -197,6 +215,7 @@ edu is column based, work is row based
                 -webkit-flex-direction: column;
                 -ms-flex-direction: column;
                 flex-direction: column;
+                padding: 3em 3em 1em 3em;
             }
 
                 #work .second article {
@@ -204,12 +223,14 @@ edu is column based, work is row based
                 }
 
                     #work .second article:first-child {
-                        padding-right: 0;
+                        padding-left: 2em;
+                        padding-right: 2em;
                         padding-bottom: 2em;
                     }
 
                     #work .second article:last-child {
-                        padding-left: 0;
+                        padding-left: 2em;
+                        padding-right: 2em;
                         padding-top: 2em;
                     }
     }

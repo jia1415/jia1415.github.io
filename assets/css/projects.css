@@ -1,8 +1,8 @@
 /* 
-css stylesheet for the coursework page
+css stylesheet for the projects page
 */
 
-#coursework {
+#projects {
     padding: 3em 0 0em 0;
     background: #f3f3f3;
     background-color: #d5d5d5;
@@ -13,19 +13,19 @@ css stylesheet for the coursework page
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=1 ); */
 }
 
-    #coursework .grayhead {
-        padding: 1em 0 1em 0;
+    #projects .grayhead {
+        padding: 2em 0 1em 0;
         background: #d5d5d5;
         text-align: center;
     }
 
-    #coursework .lighthead {
-        padding: 1em 0 1em 0;
+    #projects .lighthead {
+        padding: 2em 0 1em 0;
         background: #e0e0e0;
         text-align: center;
     }
 
-    #coursework .graybody {
+    #projects .graybody {
         background: #d5d5d5;
         display: -ms-flexbox;
         display: -moz-flex;
@@ -36,27 +36,28 @@ css stylesheet for the coursework page
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
         flex-direction: row;
-        padding-right: 15em;
-        padding-left: 15em;
+        padding-right: calc(20%);
+        padding-left: calc(20%);
         padding-bottom: 1em;
-        padding-top: 3em;
+        padding-top: 1em;
     }
 
-        #coursework .graybody article {
+        #projects .graybody article {
             width: 50%;
         }
 
-            #coursework .graybody article:first-child {
+            #projects .graybody article:first-child {
+                padding-right: 3em;
+                padding-left: 3em;
+                text-align: center;
+            }
+
+            #projects .graybody article:last-child {
                 padding-right: 3em;
                 padding-left: 3em;
             }
 
-            #coursework .graybody article:last-child {
-                padding-right: 3em;
-                padding-left: 3em;
-            }
-
-    #coursework .lightbody {
+    #projects .lightbody {
         background: #e0e0e0;
         display: -ms-flexbox;
         display: -moz-flex;
@@ -67,37 +68,38 @@ css stylesheet for the coursework page
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
         flex-direction: row;
-        padding-right: 15em;
-        padding-left: 15em;
+        padding-right: calc(20%);
+        padding-left: calc(20%);
         padding-bottom: 1em;
-        padding-top: 3em;
+        padding-top: 1em;
     }
 
-        #coursework .lightbody article {
+        #projects .lightbody article {
             width: 50%;
         }
 
-            #coursework .lightbody article:first-child {
+            #projects .lightbody article:first-child {
                 padding-right: 3em;
                 padding-left: 3em;
+                text-align: center;
             }
 
-            #coursework .lightbody article:last-child {
+            #projects .lightbody article:last-child {
                 padding-right: 3em;
                 padding-left: 3em;
             }
 
     @media screen and (max-width: 1800px) {
 
-        #coursework {
+        #projects {
             /* padding: 2em 0 0.1em 0; */
         }
 
-            #coursework .graybody {
+            #projects .graybody {
                 padding: 2em 5em 0 5em;
             }
 
-            #coursework .lightbody {
+            #projects .lightbody {
                 padding: 2em 5em 0 5em;
             }
     
@@ -105,12 +107,12 @@ css stylesheet for the coursework page
                     
     @media screen and (max-width: 980px) {
 
-        #coursework {
+        #projects {
             padding: 4em 0em 2em 0em;
             text-align: center;
         }
 
-            #coursework .graybody {
+            #projects .graybody {
                 -moz-flex-direction: column;
                 -webkit-flex-direction: column;
                 -ms-flex-direction: column;
@@ -118,23 +120,23 @@ css stylesheet for the coursework page
                 
             }
 
-                #coursework .graybody article {
+                #projects .graybody article {
                     width: 100%;
                 }
 
-                    #coursework .graybody article:first-child {
+                    #projects .graybody article:first-child {
                         padding-right: 0em;
                         padding-left: 0em;
                         padding-bottom: 2em;
                     }
 
-                    #coursework .graybody article:last-child {
+                    #projects .graybody article:last-child {
                         padding-right: 0em;
                         padding-left: 0em;
                         padding-top: 2em;
                     }
 
-            #coursework .lightbody {
+            #projects .lightbody {
                 background: #e0e0e0;
                 -moz-flex-direction: column;
                 -webkit-flex-direction: column;
@@ -142,17 +144,17 @@ css stylesheet for the coursework page
                 flex-direction: column;
             }
 
-                #coursework .lightbody article {
+                #projects .lightbody article {
                     width: 100%;
                 }
 
-                    #coursework .lightbody article:first-child {
+                    #projects .lightbody article:first-child {
                         padding-right: 0em;
                         padding-left: 0em;
                         padding-bottom: 2em;
                     }
 
-                    #coursework .lightbody article:last-child {
+                    #projects .lightbody article:last-child {
                         padding-right: 0em;
                         padding-left: 0em;
                         padding-top: 2em;
@@ -161,16 +163,16 @@ css stylesheet for the coursework page
 
     @media screen and (max-width: 736px) {
 
-        #coursework {
+        #projects {
             padding: 2em 0 0.1em 0;
             text-align: center;
         }
 
-            #coursework .graybody {
+            #projects .graybody {
                 padding: 2em 0 0 0;
             }
 
-            #coursework .lightbody {
+            #projects .lightbody {
                 padding: 2em 0 0 0;
             }
 
